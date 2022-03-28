@@ -49,6 +49,19 @@ function semana () {
 
 semana();
 
+// Ejericio 1 con FOR
+function mostrarDias () {
+
+let semana = ['lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado', 'domingo'] 
+    for(let i = 0; i < semana.length; i++) {
+        console.log(semana[i])
+    }
+}
+
+mostrarDias();
+
+
+
 // Ejercicio 2
 
 function suma () {
